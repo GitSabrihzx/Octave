@@ -5,7 +5,7 @@
 % Author                 :Sabrina Andrea Hernandez (Gitsabrinax), Daniel Alberto De Jesús Dominguez (danyd3), Jose Manuel Arce Salvador (JoseManuelArceSal)
 % Date                   :20211013
 % Version                :1
-% Usage                  : 
+% Usage                  : OCTAVE<M
 % Notes                  :Requiere Octave
 
 % limpiar variables
