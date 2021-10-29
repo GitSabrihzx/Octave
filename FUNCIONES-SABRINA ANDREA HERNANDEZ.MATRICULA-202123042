@@ -1,0 +1,122 @@
+% Escritura de octave                                                          1
+% Título :GRAFICA CON RAIZ
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON RAIZ 
+% Fecha :28102021
+% Versión :1
+
+clear
+% Dominio de la funcion 
+x=-100:10:100
+% Rango de la funcion 
+fx=(1)+sqrt(x-4)
+% Funcion a plotear 
+ plot(x , fx);
+________________________________________________________________________________
+ % Escritura de octave                                                         2
+% Título :GRAFICA CON x^2
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON x^2
+% Fecha :28102021
+% Versión :1
+ 
+clear 
+% Dominio de la funcion
+x=-50:10:50;
+% Rango de la funcion
+fx=((1)+(x.^2)); 
+% Funcion a plotear
+plot(x, fx);
+________________________________________________________________________________
+% Escritura de octave                                                          3
+% Título :GRAFICA CON h(t)
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON h(t)
+% Fecha :28102021
+% Versión :1
+
+clear
+% Dominio de la funcion
+t=-50:1:50;
+% Rango de la funcion
+ft=(t)./(2-t);
+% Funcion a plotear
+plot(t, ft);
+________________________________________________________________________________
+% Escritura de octave                                                          4
+% Título :GRAFICA CON f(x)=x^2
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON  f(x)=x^2
+% Fecha :28102021
+% Versión :1
+
+clear
+% Dominio de la funcion
+x=-50:0,1:50;
+% Rango de la funcion
+fx=(x.^2)+(6*(x);
+% Funcion a plotear
+plot(x, fx);
+________________________________________________________________________________
+% Escritura de octave                                                          5
+% Título :GRAFICA CON g(z)
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON g(z) 
+% Fecha :28102021
+% Versión :1
+
+clear
+% Dominio de la función
+z=-100:0,1:100;
+% Rango de la funcion 
+gz=(abs(z).^3);
+% Funcion a plotear 
+plot(z, gz);
+________________________________________________________________________________
+% Escritura de octave                                                          6
+% Título :GRAFICA CON t-1
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON t-1
+% Fecha :28102021
+% Versión :1
+
+clear
+% Dominio de la funcion
+t=-50:0,1:50;
+% Rango de la funcion
+ht=(t-1)./(t-2)
+% Funcion a plot
+plot(t, ht);
+
+________________________________________________________________________________
+% Escritura de octave                                                          7
+% Título :GRAFICA CON t-1
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON t-1
+% Fecha :28102021
+% Versión :1
+
+clear
+% Dominio de la funcion
+x=-100:10:100;
+% Rango de la funcion
+fx=((2*x.^2)+(3*x))/((x.^2)+(4*x)+(5))
+% Funcion a plot
+plot(x, y);
+________________________________________________________________________________
+% Escritura de octave                                                          8
+% Título :GRAFICA CON t-1
+% Autor :SABRINA ANDREA HERNANDEZ
+% Descripción :Script DE UNA FUNCION CON t-1
+% Fecha :28102021
+% Versión :1
+
+clear
+% Dominio de la funcion
+x=-100::100;
+% Rango de la funcion
+fx=((x.^4)+(6*(x.^3))+(9*(x.^2))-1) 
+% Funcion a plot
+plot(x, fx);
+
+
